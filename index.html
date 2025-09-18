@@ -1,15 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <!-- Redireciona automaticamente para o site publicado no GitHub Pages -->
-  <meta http-equiv="refresh" content="0; url=https://fillotecmotos.github.io/fillo-tecmoto/">
-  <title>Redirecionando...</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fillo. TecMotos</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-top: 0;
+    }
+    section a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0066cc;
+      text-decoration: none;
+    }
+    section a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #222;
+      color: #fff;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-  <p>Redirecionando para o site <strong>Fillo. Tecmoto</strong>...</p>
-  <p>Se não for redirecionado automaticamente, clique aqui: 
-    <a href="https://fillotecmotos.github.io/fillo-tecmoto/">Acessar Fillo. Tecmoto</a>
-  </p>
+  <header>
+    <h1>Fillo. TecMotos</h1>
+    <nav>
+      <a href="#pecas">Peças</a>
+      <a href="#oleos">Óleos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="pecas">
+      <h2>Peças e Manutenção</h2>
+      <p>Confira dicas de manutenção, alternativas de peças e muito mais para Harley-Davidson Sportster.</p>
+      <img src="img/pecas.jpg" alt="Peças para moto">
+      <a href="pecas.html">Ver todas as peças</a>
+    </section>
+
+    <section id="oleos">
+      <h2>Óleos e Lubrificantes</h2>
+      <p>Compare marcas e tipos de óleos recomendados para sua moto, como Motul, Castrol, Ipone, entre outros.</p>
+      <img src="img/oleos.jpg" alt="Óleos para moto">
+      <a href="oleos.html">Ver mais óleos</a>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Entre em contato para suporte, dúvidas ou pedidos de peças.</p>
+      <img src="img/contato.jpg" alt="Contato">
+      <a href="contato.html">Fale conosco</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fillo. TecMotos - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
